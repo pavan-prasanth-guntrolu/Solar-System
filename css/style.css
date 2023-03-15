@@ -1,0 +1,90 @@
+body {
+  background-image: url("../images/galaxy.gif");
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.calcenter {
+  text-align: center;
+}
+#mass {
+  height: 30px;
+  width: 200px;
+}
+select {
+  height: 35px;
+  width: 150px;
+}
+.calbtn {
+  height: 35px;
+  width: 120px;
+  position: absolute;
+  top: 20;
+  margin-left: 5px;
+}
+.planet-image {
+  height: 400px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  margin-top: 20px;
+  width: 90%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.1);
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 60%;
+  width: 60%;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.weight {
+  height: 150px;
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 600px;
+  padding: 30px;
+}
+.display {
+  display: none;
+}
+.error-parent {
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding-top: 40px;
+}
+.error-child {
+  display: flex;
+  height: 60%;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+}
